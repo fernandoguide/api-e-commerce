@@ -10,9 +10,8 @@ MAVEN
 ```
 
 ```
-git clone https://github.com/fernandoguide/Spring-boot-api
+https://github.com/fernandoguide/api-e-commerce.git
 
-cd Spring-boot-api/k2partnering 
 
 ./mvnw spring-boot:run
 
