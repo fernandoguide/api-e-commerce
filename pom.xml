@@ -12,8 +12,8 @@
     <groupId>br.com.ecommerce.api</groupId>
     <artifactId>ecommerce</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>eletronicstore</name>
-    <description>Estudo de caso Java para curso de Modelagem Conceitual UML</description>
+    <name>ecommerce</name>
+    
 
     <properties>
         <java.version>11</java.version>
