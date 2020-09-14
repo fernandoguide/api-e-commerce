@@ -21,12 +21,19 @@ API será executada em
 http://localhost:8080
 ```
 
-# SWAGGER 
+# SWAGGER Local
 
 Com a aplicacao em execucao acessar: 
 
 ```
 http://localhost:8080/swagger-ui.html
+```
+# SWAGGER Heroku
+
+Aguardar a aplicacao do heroku ser iniciada coisa de 1 min: 
+
+```
+https://e-commerce2020.herokuapp.com/swagger-ui.html
 ```
 
 Collection na raiz do projeto
