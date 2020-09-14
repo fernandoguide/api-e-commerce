@@ -12,6 +12,7 @@ MAVEN
 ```
 https://github.com/fernandoguide/api-e-commerce.git
 
+cd api-e-commerce
 
 ./mvnw spring-boot:run
 
