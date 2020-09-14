@@ -6,45 +6,14 @@
 	},
 	"item": [
 		{
-			"name": "Auth LOCAL",
+			"name": "LOCAL",
 			"item": [
 				{
-					"name": "Login",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n\t\"email\": \"fernandoguide2014@gmail.com\",\n\t\"senha\": \"admin\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/login",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"login"
-							]
-						}
-					},
-					"response": [
+					"name": "Auth LOCAL",
+					"item": [
 						{
 							"name": "Login",
-							"originalRequest": {
+							"request": {
 								"method": "POST",
 								"header": [
 									{
@@ -75,741 +44,1620 @@
 									]
 								}
 							},
-							"status": "OK",
-							"code": 200,
-							"_postman_previewlanguage": "plain",
-							"header": [
+							"response": [
 								{
-									"key": "Vary",
-									"value": "Origin"
-								},
-								{
-									"key": "Vary",
-									"value": "Access-Control-Request-Method"
-								},
-								{
-									"key": "Vary",
-									"value": "Access-Control-Request-Headers"
-								},
-								{
-									"key": "Authorization",
-									"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
-								},
-								{
-									"key": "access-control-expose-headers",
-									"value": "Authorization"
-								},
-								{
-									"key": "X-Content-Type-Options",
-									"value": "nosniff"
-								},
-								{
-									"key": "X-XSS-Protection",
-									"value": "1; mode=block"
-								},
-								{
-									"key": "Cache-Control",
-									"value": "no-cache, no-store, max-age=0, must-revalidate"
-								},
-								{
-									"key": "Pragma",
-									"value": "no-cache"
-								},
-								{
-									"key": "Expires",
-									"value": "0"
-								},
-								{
-									"key": "Content-Length",
-									"value": "0"
-								},
-								{
-									"key": "Date",
-									"value": "Mon, 14 Sep 2020 12:37:34 GMT"
-								},
-								{
-									"key": "Keep-Alive",
-									"value": "timeout=60"
-								},
-								{
-									"key": "Connection",
-									"value": "keep-alive"
+									"name": "Login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"fernandoguide2014@gmail.com\",\n\t\"senha\": \"admin\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/login",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Authorization",
+											"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+										},
+										{
+											"key": "access-control-expose-headers",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, no-store, max-age=0, must-revalidate"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Content-Length",
+											"value": "0"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 14 Sep 2020 12:37:34 GMT"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=60"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": null
 								}
-							],
-							"cookie": [],
-							"body": null
+							]
 						}
-					]
-				}
-			],
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "7b0e406c-8f2c-4f5e-a96f-89e1c0faa9f7",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "7b0e406c-8f2c-4f5e-a96f-89e1c0faa9f7",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "628d0890-8969-4796-8bc7-a1c4e21a01e1",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				},
 				{
-					"listen": "test",
-					"script": {
-						"id": "628d0890-8969-4796-8bc7-a1c4e21a01e1",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
+					"name": "Clientes LOCAL",
+					"item": [
+						{
+							"name": "findAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/clientes",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByID",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2MTg0NzN9.cUl8Xazqc566ENnhhH8YDF375BbigYnHkneVomBeSrcQ97sudf0tS64m7pVE29Ncg6PGZj0rAvAdImYuemG-tA"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/clientes/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByEmail",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE1OTMxMzA5NTJ9.YcUy7QrEfXB324IM3j9Z4xFzor3KOUvvOmMgCglzWY2rZpNx6wD30JWTXVWbBxykSVdoXmQ1aWLk9HBbinhP0A"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/clientes/email?value=eletronicstore2020@gmail.com",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes",
+										"email"
+									],
+									"query": [
+										{
+											"key": "value",
+											"value": "eletronicstore2020@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertCliente",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2NDMxMzV9.uucWnBjrcnLDFlZUNhCuupa5J81EFHxgg-GAeOW6SLTVnB6QH63qc9pGoVLTQ387GKR57jB3p_euaiaogKhe8w"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Joao s\",\n    \"email\": \"joao@gmail.com\",\n    \"senha\": \"123\",\n    \"cpfOuCnpj\": \"18975927016\",\n    \"tipo\": 1,\n    \"logradouro\": \"Rua do meio\",\n    \"numero\": \"111\",\n    \"complemento\": \"casa 1\", \n    \"bairro\": \"Lapa\",\n    \"cep\": \"02805050\",\n    \"telefone1\": \"93321111\",\n    \"cidadeId\": 2\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/clientes",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCliente",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/clientes/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editCliente",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Joao Vinicius\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/clientes/5",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ccec8689-440f-4237-bb43-aad203215410",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "4da7a668-0ad1-4ddd-a6be-2fd1737ae31d",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Categorias LOCAL",
+					"item": [
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/categorias",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/categorias/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"categorias",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createCategoria",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1ODY0NjczMTV9.o4bfHFX6nC85KQR2_X3B0ovI5AfG2myULBHfNyClKc9LWiDJvR6lZJHU43Jjc9do3oBd3DpRjBTGNJV4-56Q_Q",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"nome\": \"Cadeiras Gamer\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/categorias",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editCategoria",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"nome\": \"Futebol 2\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/categorias/9",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"categorias",
+										"9"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCategoria",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/categorias/9",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"categorias",
+										"9"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "8ed4f8a7-35d3-4f36-8d68-93fd8b5f9a58",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "22765d00-63ad-49c8-8f24-8d0c6adb0cad",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Produtos LOCAL",
+					"item": [
+						{
+							"name": "findByID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/produtos/1",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"produtos",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findPage",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "http://localhost:8080/produtos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"produtos"
+									],
+									"query": [
+										{
+											"key": "categoria",
+											"value": "Informatica",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "5df5670b-2b46-4bd6-bc08-0a661e54d0f2",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "0ed7c415-1c08-4a01-ae3c-ebbbe548f1be",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Pedidos LOCAL",
+					"item": [
+						{
+							"name": "findByID",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/pedidos/2",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"pedidos",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createPedido",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"cliente\": {\n        \"id\": 1\n    },\n    \"enderecoDeEntrega\": {\n        \"id\": 1\n    },\n    \"pagamento\": {\n        \"@type\": \"pagamentoComCartao\",\n        \"numeroDeParcelas\": 10\n    },\n    \"itens\": [\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 33\n            }\n        },\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 24\n            }\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "http://localhost:8080/pedidos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"pedidos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAllPedidosPage",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "http://localhost:8080/pedidos",
+									"protocol": "http",
+									"host": [
+										"localhost"
+									],
+									"port": "8080",
+									"path": [
+										"pedidos"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ad7b51dd-ace7-4bda-ae14-28987d6b5272",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "3368a374-2b62-48af-8864-9f5ac8fb1f91",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				}
 			],
 			"protocolProfileBehavior": {}
 		},
 		{
-			"name": "Clientes LOCAL",
+			"name": "HEROKU",
 			"item": [
 				{
-					"name": "findAll",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q",
-								"type": "text"
-							},
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/clientes",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "findByID",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"type": "text",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2MTg0NzN9.cUl8Xazqc566ENnhhH8YDF375BbigYnHkneVomBeSrcQ97sudf0tS64m7pVE29Ncg6PGZj0rAvAdImYuemG-tA"
-							},
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/json",
-								"disabled": true
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/clientes/5",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes",
-								"5"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "findByEmail",
-					"protocolProfileBehavior": {
-						"disableBodyPruning": true
-					},
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"type": "text",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE1OTMxMzA5NTJ9.YcUy7QrEfXB324IM3j9Z4xFzor3KOUvvOmMgCglzWY2rZpNx6wD30JWTXVWbBxykSVdoXmQ1aWLk9HBbinhP0A"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/clientes/email?value=eletronicstore2020@gmail.com",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes",
-								"email"
-							],
-							"query": [
-								{
-									"key": "value",
-									"value": "eletronicstore2020@gmail.com"
-								}
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "insertCliente",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"type": "text",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2NDMxMzV9.uucWnBjrcnLDFlZUNhCuupa5J81EFHxgg-GAeOW6SLTVnB6QH63qc9pGoVLTQ387GKR57jB3p_euaiaogKhe8w"
-							},
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"nome\": \"Joao s\",\n    \"email\": \"joao@gmail.com\",\n    \"senha\": \"123\",\n    \"cpfOuCnpj\": \"18975927016\",\n    \"tipo\": 1,\n    \"logradouro\": \"Rua do meio\",\n    \"numero\": \"111\",\n    \"complemento\": \"casa 1\", \n    \"bairro\": \"Lapa\",\n    \"cep\": \"02805050\",\n    \"telefone1\": \"93321111\",\n    \"cidadeId\": 2\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/clientes",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "deleteCliente",
-					"request": {
-						"method": "DELETE",
-						"header": [
-							{
-								"key": "Authorization",
-								"type": "text",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
-							}
-						],
-						"url": {
-							"raw": "http://localhost:8080/clientes/5",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes",
-								"5"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "editCliente",
-					"request": {
-						"method": "PUT",
-						"header": [
-							{
-								"key": "Authorization",
-								"type": "text",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
-							},
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"type": "text",
-								"value": "application/json"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"nome\": \"Joao Vinicius\"\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/clientes/5",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"clientes",
-								"5"
-							]
-						}
-					},
-					"response": []
-				}
-			],
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "ccec8689-440f-4237-bb43-aad203215410",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"id": "4da7a668-0ad1-4ddd-a6be-2fd1737ae31d",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				}
-			],
-			"protocolProfileBehavior": {}
-		},
-		{
-			"name": "Categorias LOCAL",
-			"item": [
-				{
-					"name": "findAll",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/categorias",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"categorias"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "findByID",
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/categorias/1",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"categorias",
-								"1"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "createCategoria",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							},
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1ODY0NjczMTV9.o4bfHFX6nC85KQR2_X3B0ovI5AfG2myULBHfNyClKc9LWiDJvR6lZJHU43Jjc9do3oBd3DpRjBTGNJV4-56Q_Q",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n        \"nome\": \"Cadeiras Gamer\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/categorias",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"categorias"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "editCategoria",
-					"request": {
-						"method": "PUT",
-						"header": [
-							{
-								"key": "Content-Type",
-								"name": "Content-Type",
-								"value": "application/json",
-								"type": "text"
-							},
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\r\n        \"nome\": \"Futebol 2\"\r\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
-							}
-						},
-						"url": {
-							"raw": "http://localhost:8080/categorias/9",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"categorias",
-								"9"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "deleteCategoria",
-					"request": {
-						"auth": {
-							"type": "noauth"
-						},
-						"method": "DELETE",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "http://localhost:8080/categorias/9",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"categorias",
-								"9"
-							]
-						}
-					},
-					"response": []
-				}
-			],
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "8ed4f8a7-35d3-4f36-8d68-93fd8b5f9a58",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"id": "22765d00-63ad-49c8-8f24-8d0c6adb0cad",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				}
-			],
-			"protocolProfileBehavior": {}
-		},
-		{
-			"name": "Produtos LOCAL",
-			"item": [
-				{
-					"name": "findByID",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/produtos/1",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"produtos",
-								"1"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "findPage",
-					"request": {
-						"method": "GET",
-						"header": [],
-						"url": {
-							"raw": "http://localhost:8080/produtos",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"produtos"
-							],
-							"query": [
-								{
-									"key": "categoria",
-									"value": "Informatica",
-									"disabled": true
+					"name": "Auth",
+					"item": [
+						{
+							"name": "Login",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n\t\"email\": \"fernandoguide2014@gmail.com\",\n\t\"senha\": \"admin\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
 								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/login",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"login"
+									]
+								}
+							},
+							"response": [
 								{
-									"key": "page",
-									"value": "1",
-									"disabled": true
+									"name": "Login",
+									"originalRequest": {
+										"method": "POST",
+										"header": [
+											{
+												"key": "Content-Type",
+												"name": "Content-Type",
+												"type": "text",
+												"value": "application/json"
+											}
+										],
+										"body": {
+											"mode": "raw",
+											"raw": "{\n\t\"email\": \"fernandoguide2014@gmail.com\",\n\t\"senha\": \"admin\"\n}",
+											"options": {
+												"raw": {
+													"language": "json"
+												}
+											}
+										},
+										"url": {
+											"raw": "http://localhost:8080/login",
+											"protocol": "http",
+											"host": [
+												"localhost"
+											],
+											"port": "8080",
+											"path": [
+												"login"
+											]
+										}
+									},
+									"status": "OK",
+									"code": 200,
+									"_postman_previewlanguage": "plain",
+									"header": [
+										{
+											"key": "Vary",
+											"value": "Origin"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Method"
+										},
+										{
+											"key": "Vary",
+											"value": "Access-Control-Request-Headers"
+										},
+										{
+											"key": "Authorization",
+											"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+										},
+										{
+											"key": "access-control-expose-headers",
+											"value": "Authorization"
+										},
+										{
+											"key": "X-Content-Type-Options",
+											"value": "nosniff"
+										},
+										{
+											"key": "X-XSS-Protection",
+											"value": "1; mode=block"
+										},
+										{
+											"key": "Cache-Control",
+											"value": "no-cache, no-store, max-age=0, must-revalidate"
+										},
+										{
+											"key": "Pragma",
+											"value": "no-cache"
+										},
+										{
+											"key": "Expires",
+											"value": "0"
+										},
+										{
+											"key": "Content-Length",
+											"value": "0"
+										},
+										{
+											"key": "Date",
+											"value": "Mon, 14 Sep 2020 12:37:34 GMT"
+										},
+										{
+											"key": "Keep-Alive",
+											"value": "timeout=60"
+										},
+										{
+											"key": "Connection",
+											"value": "keep-alive"
+										}
+									],
+									"cookie": [],
+									"body": null
 								}
 							]
 						}
-					},
-					"response": []
-				}
-			],
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "5df5670b-2b46-4bd6-bc08-0a661e54d0f2",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				},
-				{
-					"listen": "test",
-					"script": {
-						"id": "0ed7c415-1c08-4a01-ae3c-ebbbe548f1be",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
-				}
-			],
-			"protocolProfileBehavior": {}
-		},
-		{
-			"name": "Pedidos LOCAL",
-			"item": [
-				{
-					"name": "findByID",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
-								"type": "text"
-							}
-						],
-						"url": {
-							"raw": "http://localhost:8080/pedidos/2",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"pedidos",
-								"2"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "createPedido",
-					"request": {
-						"method": "POST",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
-								"type": "text"
-							}
-						],
-						"body": {
-							"mode": "raw",
-							"raw": "{\n    \"cliente\": {\n        \"id\": 1\n    },\n    \"enderecoDeEntrega\": {\n        \"id\": 1\n    },\n    \"pagamento\": {\n        \"@type\": \"pagamentoComCartao\",\n        \"numeroDeParcelas\": 10\n    },\n    \"itens\": [\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 33\n            }\n        },\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 24\n            }\n        }\n    ]\n}",
-							"options": {
-								"raw": {
-									"language": "json"
-								}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "d924a8a2-3e47-4f7f-acc2-bfed5c292ae8",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
 							}
 						},
-						"url": {
-							"raw": "http://localhost:8080/pedidos",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"pedidos"
-							]
-						}
-					},
-					"response": []
-				},
-				{
-					"name": "findAllPedidosPage",
-					"request": {
-						"method": "GET",
-						"header": [
-							{
-								"key": "Authorization",
-								"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
-								"type": "text"
+						{
+							"listen": "test",
+							"script": {
+								"id": "d9c902a4-7fe3-4551-9ecd-4f36ff9c18fe",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
 							}
-						],
-						"url": {
-							"raw": "http://localhost:8080/pedidos",
-							"protocol": "http",
-							"host": [
-								"localhost"
-							],
-							"port": "8080",
-							"path": [
-								"pedidos"
-							]
 						}
-					},
-					"response": []
-				}
-			],
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "ad7b51dd-ace7-4bda-ae14-28987d6b5272",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				},
 				{
-					"listen": "test",
-					"script": {
-						"id": "3368a374-2b62-48af-8864-9f5ac8fb1f91",
-						"type": "text/javascript",
-						"exec": [
-							""
-						]
-					}
+					"name": "Clientes LOCAL",
+					"item": [
+						{
+							"name": "findAll",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q",
+										"type": "text"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByID",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2MTg0NzN9.cUl8Xazqc566ENnhhH8YDF375BbigYnHkneVomBeSrcQ97sudf0tS64m7pVE29Ncg6PGZj0rAvAdImYuemG-tA"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json",
+										"disabled": true
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes/5",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByEmail",
+							"protocolProfileBehavior": {
+								"disableBodyPruning": true
+							},
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE1OTMxMzA5NTJ9.YcUy7QrEfXB324IM3j9Z4xFzor3KOUvvOmMgCglzWY2rZpNx6wD30JWTXVWbBxykSVdoXmQ1aWLk9HBbinhP0A"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes/email?value=eletronicstore2020@gmail.com",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes",
+										"email"
+									],
+									"query": [
+										{
+											"key": "value",
+											"value": "eletronicstore2020@gmail.com"
+										}
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "insertCliente",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1OTE2NDMxMzV9.uucWnBjrcnLDFlZUNhCuupa5J81EFHxgg-GAeOW6SLTVnB6QH63qc9pGoVLTQ387GKR57jB3p_euaiaogKhe8w"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Joao s\",\n    \"email\": \"joao@gmail.com\",\n    \"senha\": \"123\",\n    \"cpfOuCnpj\": \"18975927016\",\n    \"tipo\": 1,\n    \"logradouro\": \"Rua do meio\",\n    \"numero\": \"111\",\n    \"complemento\": \"casa 1\", \n    \"bairro\": \"Lapa\",\n    \"cep\": \"02805050\",\n    \"telefone1\": \"93321111\",\n    \"cidadeId\": 2\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCliente",
+							"request": {
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+									}
+								],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes/5",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editCliente",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Authorization",
+										"type": "text",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM0NTR9.g-DvUPu64GlZNzyjIonTCtpT_bux6KaZNIaPVtD2IYUvr-nwUeR_HuiI8XdkCGBwhQGB6C5FQgtOZ1ZxTOZA-Q"
+									},
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"type": "text",
+										"value": "application/json"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"nome\": \"Joao Vinicius\"\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/clientes/5",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"clientes",
+										"5"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "dcf7f881-7bde-4fd9-b009-8802a5123e7f",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "2ba549cd-f485-482d-9f16-804a67b2cec5",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Categorias LOCAL",
+					"item": [
+						{
+							"name": "findAll",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/categorias",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findByID",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/categorias/1",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"categorias",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createCategoria",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJlbGV0cm9uaWNzdG9yZTIwMjBAb3V0bG9vay5jb20iLCJleHAiOjE1ODY0NjczMTV9.o4bfHFX6nC85KQR2_X3B0ovI5AfG2myULBHfNyClKc9LWiDJvR6lZJHU43Jjc9do3oBd3DpRjBTGNJV4-56Q_Q",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"nome\": \"Cadeiras Gamer\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/categorias",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"categorias"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "editCategoria",
+							"request": {
+								"method": "PUT",
+								"header": [
+									{
+										"key": "Content-Type",
+										"name": "Content-Type",
+										"value": "application/json",
+										"type": "text"
+									},
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\r\n        \"nome\": \"Futebol 2\"\r\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/categorias/9",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"categorias",
+										"9"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "deleteCategoria",
+							"request": {
+								"auth": {
+									"type": "noauth"
+								},
+								"method": "DELETE",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJhZG1pbkBnbWFpbC5jb20iLCJleHAiOjE1ODI1Nzg5NDB9.wBjYVu5fYMbszctTfIWsvmTGUc_9etyRvrZyFpiMOjS6S3RCMlKWhV-SAXN7LNeY_S0OsMbYVXXdRjKWb1Cq5A",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/categorias/9",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"categorias",
+										"9"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "ccf4c99e-1bce-4cb8-9cab-c25b98224af3",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "64c24972-3cd9-4ff8-ba92-fa15f1dce362",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Produtos LOCAL",
+					"item": [
+						{
+							"name": "findByID",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/produtos/1",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"produtos",
+										"1"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findPage",
+							"request": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/produtos",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"produtos"
+									],
+									"query": [
+										{
+											"key": "categoria",
+											"value": "Informatica",
+											"disabled": true
+										},
+										{
+											"key": "page",
+											"value": "1",
+											"disabled": true
+										}
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "3f8e374c-1750-451e-a678-8c1312f5a5fb",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "77d1f63c-0f67-4d37-b4b7-238fb2b0e78a",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
+				},
+				{
+					"name": "Pedidos LOCAL",
+					"item": [
+						{
+							"name": "findByID",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/pedidos/2",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"pedidos",
+										"2"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "createPedido",
+							"request": {
+								"method": "POST",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"body": {
+									"mode": "raw",
+									"raw": "{\n    \"cliente\": {\n        \"id\": 1\n    },\n    \"enderecoDeEntrega\": {\n        \"id\": 1\n    },\n    \"pagamento\": {\n        \"@type\": \"pagamentoComCartao\",\n        \"numeroDeParcelas\": 10\n    },\n    \"itens\": [\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 33\n            }\n        },\n        {\n            \"quantidade\": 1,\n            \"produto\": {\n                \"id\": 24\n            }\n        }\n    ]\n}",
+									"options": {
+										"raw": {
+											"language": "json"
+										}
+									}
+								},
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/pedidos",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"pedidos"
+									]
+								}
+							},
+							"response": []
+						},
+						{
+							"name": "findAllPedidosPage",
+							"request": {
+								"method": "GET",
+								"header": [
+									{
+										"key": "Authorization",
+										"value": "Bearer eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJmZXJuYW5kb2d1aWRlMjAxNEBnbWFpbC5jb20iLCJleHAiOjE2MDAxNzM4ODh9.lCytuX8de_Yd9mWdcXXCO9rSqQNCsEhBQTmQbetRY_D-nv9z4MquNW0JAHSA6b_qn2Lq2lPpqHKD9ZDXUq8FNw",
+										"type": "text"
+									}
+								],
+								"url": {
+									"raw": "https://e-commerce2020.herokuapp.com/pedidos",
+									"protocol": "https",
+									"host": [
+										"e-commerce2020",
+										"herokuapp",
+										"com"
+									],
+									"path": [
+										"pedidos"
+									]
+								}
+							},
+							"response": []
+						}
+					],
+					"event": [
+						{
+							"listen": "prerequest",
+							"script": {
+								"id": "717c8f9f-cd61-4213-b523-a562b2fca45d",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						},
+						{
+							"listen": "test",
+							"script": {
+								"id": "e5d067a6-d71c-4d87-ade8-ee815fb0d765",
+								"type": "text/javascript",
+								"exec": [
+									""
+								]
+							}
+						}
+					],
+					"protocolProfileBehavior": {},
+					"_postman_isSubFolder": true
 				}
 			],
 			"protocolProfileBehavior": {}
