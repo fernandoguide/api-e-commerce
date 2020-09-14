@@ -1,19 +1,18 @@
 package br.com.ecommerce.api.resources;
 
-import br.com.ecommerce.api.dto.EmailDTO;
+
 import br.com.ecommerce.api.security.JWTUtil;
 import br.com.ecommerce.api.security.UserSS;
 import br.com.ecommerce.api.services.UserService;
 import io.swagger.annotations.ApiOperation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpServletResponse;
-import javax.validation.Valid;
+
 
 @RestController
 @RequestMapping(value = "/auth")

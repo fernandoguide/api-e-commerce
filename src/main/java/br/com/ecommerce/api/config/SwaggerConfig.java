@@ -37,7 +37,7 @@ public class SwaggerConfig {
                 .globalResponseMessage(RequestMethod.PUT, Arrays.asList(m204put, m403, m404, m422, m500))
                 .globalResponseMessage(RequestMethod.DELETE, Arrays.asList(m204del, m403, m404, m500))
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.bandtec.eletronicstore.resources"))
+                .apis(RequestHandlerSelectors.basePackage("br.com.ecommerce.api.resources"))
                 .paths(PathSelectors.any())
                 .build()
                 .securitySchemes(Arrays.asList(new ApiKey("Token Access", HttpHeaders.AUTHORIZATION, In.HEADER.name())))
@@ -46,8 +46,8 @@ public class SwaggerConfig {
     }
 
     private ApiInfo apiInfo() {
-        return new ApiInfo("API da Eletronic Store ",
-                "Esta API é utilizada para a Faculdade Bandtec",
+        return new ApiInfo("API de E-commerce ",
+                "Esta API é utilizada para a testes",
 				"Versão 1.0",
                 "https://github.com/fernandoguide",
                 new Contact("Fernando Oliveira",

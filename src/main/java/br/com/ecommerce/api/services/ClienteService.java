@@ -142,7 +142,6 @@ public class ClienteService {
         return cli;
     }
 
-
     public Cliente update(Cliente obj) {
         Cliente newObj = find(obj.getId());
         updateData(newObj, obj);
@@ -181,15 +180,10 @@ public class ClienteService {
         return repo.findAll(pageRequest);
     }
 
-    public Cliente fromDTO(ClienteDTO objDto) {
-        return new Cliente(null, objDto.getNome(), objDto.getEmail(), null, null, null);
-    }
 
     private void updateData(Cliente newObj, Cliente obj) {
         newObj.setNome(obj.getNome());
         newObj.setEmail(obj.getEmail());
     }
-
-
 
 }
